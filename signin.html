@@ -1,0 +1,62 @@
+<html>
+
+<head>
+    <title>Registraion form</title>
+    <link rel="stylesheet" href="colors2.css">
+    <style>
+        table tr td,h1,b{
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="aboutus.html">AboutUs</a></li>
+            <li><a href="contactus.html">ContactUs</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="signin.html">SignIn</a></li>
+            
+            <form action="login.html">
+            </nav><center>
+                    <h1>SignIn</h1>
+                    <table>
+                        <tr>
+                            <td>User Name:</td>
+                            <td><input type="text" name="uname" autofocus placeholder="Enter UserName"></td>
+                        </tr>
+                        <tr><td>Password:</td><td><input type="password" name="pwd" placeholder="Enter Password"></td></tr>
+                        <tr><td>Age:</td><td><input type="text" name="age" placeholder="Enter age"></td></tr>
+                    <tr><td>Branch:</td>
+                    <td><input list="Branch" name="Branches">
+                    <datalist id="Branch">
+                        <option value="AIML">AIML</option>
+                        <option value="DS">DS</option>
+                        <option value="CSE1">CSE1</option>
+                    </datalist>
+                    </datalist></td></tr></table>
+                    <b>Gender :</b>
+                        <input type="radio" name="gender">male
+                        <input type="radio" name="gender">female<br>
+                    <b>Languages:</b><br>
+                    <table
+                    <tr><td><input type="checkbox" name="telugu">Telugu</td></tr>
+                    <tr> <td><input type="checkbox" name="hindi">Hindi</td></tr>
+                    <tr> <td><input type="checkbox" name="English">English</td></tr></table>
+                    <b>Adress : </b><br>
+                    <textarea name="adress">Adress</textarea><br>
+                    <input type="submit">
+                </center>
+                <footer style="color: black; text-align: center; background-color: white;">
+                    <p>
+                        <marquee>&copy This Is my Website for 2024</marquee>
+                    </p>
+                </footer>
+
+            </form>
+            </div>
+
+
+</html>

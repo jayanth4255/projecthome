@@ -1,0 +1,41 @@
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    
+    
+}
+nav{
+    background-color: aqua;
+}
+h1{
+    margin: 20;
+}
+
+h3,video{
+    padding: 5;
+    margin: 25;
+}
+body{
+    background-image: url("backgroung.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+table tr td{
+    text-emphasis-color: white
+
+}
+.top{
+    text-align: right;
+}
+a{
+    text-align: right;
+}
+footer {
+    position: fixed;
+    bottom: 5%;
+    width: 100%;
+    background-color: blanchedalmond;
+    color: black;
+}
+
